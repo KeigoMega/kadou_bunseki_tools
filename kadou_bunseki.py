@@ -27,7 +27,7 @@ class MAIN_ROUCHINE:
         self.living = 0
 
     def startMe(self):
-        self.file_name = f'稼働分析{time.time():.0f}.txt'
+        self.file_name = f'稼働分析{time.time():.0f}.csv'
         self.measureing = 1
 
     def stopMe(self):

@@ -1,4 +1,4 @@
-move .\build\exe.win-amd64-3.8\kadou_bunseki.exe .\build\exe.win-amd64-3.8\遞ｼ蜒搾ｼ丈ｽ懈･ｭ蛻�譫千畑DM繧ｹ繝医ャ繝励え繧ｩ繝�繝」XXXX.exe
+move .\build\exe.win-amd64-3.8\kadou_bunseki.exe .\build\exe.win-amd64-3.8\稼働／作業分析用DMストップウォッチvXXXX.exe
 
 rm -R build\exe.win-amd64-3.8\lib\pydoc_data
 rm -R build\exe.win-amd64-3.8\lib\unittest

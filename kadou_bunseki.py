@@ -190,9 +190,9 @@ class MAIN_GUI:
         font_family = self.getUsableFontFamily()
         font_size = {
             'normal': 10,
-            'mid': 25,
-            'big': 44,
-            'button': 38,
+            'mid': 16,
+            'big': 32,
+            'button': 24,
         }
 
         self.panel_font = font.Font(root=self.root, family=font_family, size=font_size.get('normal'), weight='normal')
@@ -200,7 +200,7 @@ class MAIN_GUI:
         self.panel_font_big = font.Font(root=self.root, family=font_family, size=font_size.get('big'), weight='normal')
         self.panel_font_button = font.Font(root=self.root, family=font_family, size=font_size.get('button'), weight='normal')
 
-        self.root.title(f'稼働分析用DMストップウォッチ by Keigo.M')
+        self.root.title(f'稼働分析用DMストップウォッチ by K.Mega')
         # set the top right close button minimize (iconify) the main window
         self.root.protocol('WM_DELETE_WINDOW', self.loopEnd)
         # set Esc exit the program and keyBind
@@ -214,10 +214,10 @@ class MAIN_GUI:
         self.timer_main.grid(row=0, column=0, columnspan=2, sticky='W' + 'E' + 'N' + 'S')
 
         # create reset-buttons-label
-        self.btn_start = tk.Button(master=self.root, text='計測開始', font=self.panel_font_button, bg='deep sky blue', command=self.stw.startMe)
+        self.btn_start = tk.Button(master=self.root, text='計測開始', font=self.panel_font_button, width=12, bg='deep sky blue', command=self.stw.startMe)
 
         # create write-button-label
-        self.btn_stop = tk.Button(master=self.root, text='計測停止', font=self.panel_font_button, bg='orange red', command=self.stw.stopMe)
+        self.btn_stop = tk.Button(master=self.root, text='計測停止', font=self.panel_font_button, width=12, bg='orange red', command=self.stw.stopMe)
 
         # grid for buttons
         self.btn_start.grid(row=1, column=0)

@@ -2,3 +2,4 @@ __pycache__
 *.exe
 dist
 build
+kadou_bunseki.py

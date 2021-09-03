@@ -200,7 +200,7 @@ class MAIN_GUI:
         self.panel_font_big = font.Font(root=self.root, family=font_family, size=font_size.get('big'), weight='normal')
         self.panel_font_button = font.Font(root=self.root, family=font_family, size=font_size.get('button'), weight='normal')
 
-        self.root.title(f'稼働分析用DMストップウォッチ by K.Mega')
+        self.root.title(f'稼働／作業分析用DMストップウォッチ by K.Mega')
         # set the top right close button minimize (iconify) the main window
         self.root.protocol('WM_DELETE_WINDOW', self.loopEnd)
         # set Esc exit the program and keyBind

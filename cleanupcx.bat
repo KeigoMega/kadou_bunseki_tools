@@ -1,3 +1,5 @@
+move .\build\exe.win-amd64-3.8\kadou_bunseki.exe .\build\exe.win-amd64-3.8\稼働／作業分析用DMストップウォッチvXXXX.exe
+
 rm -R build\exe.win-amd64-3.8\lib\pydoc_data
 rm -R build\exe.win-amd64-3.8\lib\unittest
 rm -R build\exe.win-amd64-3.8\lib\urllib

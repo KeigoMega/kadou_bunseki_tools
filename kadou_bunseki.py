@@ -19,7 +19,7 @@ class MAIN_ROUCHINE:
 
         self.locker = 0
 
-        print('デシマルストップウォッチ for 稼働分析')
+        print('DMストップウォッチ for 稼働/作業分析')
         #print('Enter押下でスタート＆ラップタイム記録')
         #print('"q"入力後Enter押下で停止')
 
@@ -27,7 +27,7 @@ class MAIN_ROUCHINE:
         self.living = 0
 
     def startMe(self):
-        self.file_name = f'稼働分析{time.time():.0f}.csv'
+        self.file_name = f'計測結果{time.time():.0f}.csv'
         self.measureing = 1
 
     def stopMe(self):
